@@ -1,0 +1,15 @@
+[project]
+name = "MindPal-backend"
+version = "0.1.0"
+description = "MindPal-backend using FastAPI"
+authors = [
+    {name = "zeropsykh", email = "adithyan13om@gmail.com"},
+]
+dependencies = ["fastapi>=0.115.6", "uvicorn>=0.34.0", "sqlalchemy>=2.0.36", "python-jose>=3.3.0", "passlib>=1.7.4", "pydantic[email]>=2.10.4", "psycopg2-binary>=2.9.10", "python-dotenv>=1.0.1"]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
